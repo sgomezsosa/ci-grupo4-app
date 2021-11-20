@@ -10,4 +10,8 @@ class ApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void VerifyValueSO() {
+	}
+
 }
