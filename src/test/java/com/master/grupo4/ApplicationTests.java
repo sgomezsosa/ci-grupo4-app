@@ -14,4 +14,8 @@ class ApplicationTests {
 	void systemtest() {
 	}
 
+	@Test
+	void VerifyValueSO() {
+	}
+
 }
