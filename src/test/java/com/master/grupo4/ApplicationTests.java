@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ApplicationTests {
 
 	@Test
-	void mainAppValue() {}
+	void newMainAppValue() {}
 
 	@Test
 	void contextLoads() {
