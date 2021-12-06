@@ -6,6 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ApplicationTests {
 
+  @Test
+  void newMainAppValue() {
+  }
+  
 	@Test
 	void contextLoadsprimary() {
 	}
@@ -14,8 +18,12 @@ class ApplicationTests {
 	void systemtest() {
 	}
 
-	@Test
-	void VerifyValueSO() {
-	}
+  @Test
+  void contextLoads() {
+  }
+
+  @Test
+  void VerifyValueSO() {
+  }
 
 }
