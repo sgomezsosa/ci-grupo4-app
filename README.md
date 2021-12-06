@@ -8,14 +8,14 @@
 	A continuación se enumera una lista de requisitos necesarios para poder clonar y finalmente hacer delpoy del proyecto:
 
 		1.- JDK Java 1.8 o superior.
-		2.- Gradle 6.6.x o superior.
+		2.- Gradle 7.1 o superior.
         3.- IDE IntelliJ versión 2019 o superior.
 
 	Una vez descargadas e instaladas estas aplicaciones asegurese de agregar las rutas tanto de su versión de Java cómo de Gradle al classpath, de la siguiente manera: 
 
 	$ Para usuarios GNU/Linux/Mac:
 		export PATH=$PATH:/opt/java/jre1.8.0_171/bin
-		export PATH=$PATH:/opt/gradle/gradle-6.0.1/bin
+		export PATH=$PATH:/opt/gradle/gradle-7.1/bin
 
 	$ Para usuarios Windows:
 		En Explorador de Archivos, haga click derecho sobre el icono Este Equipo, luego Propiedades -> Configuración Avanzada del Sistema -> Variables de Entorno.
@@ -65,3 +65,11 @@
 			JDBC URL: jdbc:h2:mem:memDb
 			User Name: sa
 			Password: (vacío)
+
+# i18n
+    El proyecto soporta internacionalización para los siguientes idiomas
+    -   Español - es (Por defecto)
+    -   Inglés - en
+
+    Para cambiar el idioma prederminado se ingresa en la barra de direcciones el parámetro lang:
+    -  localhost:8080/?lang=en
