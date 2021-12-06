@@ -11,6 +11,7 @@ import javax.persistence.Table;
 @Table(name = "employees")
 public class Employee {
 
+
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
     private long id;
@@ -47,4 +48,5 @@ public class Employee {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
