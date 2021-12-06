@@ -23,6 +23,10 @@ public class Employee {
 
     @Column(name = "email")
     private String email;
+
+    @Column(name = "age")
+    private int age;
+
     public long getId() {
         return id;
     }
@@ -46,5 +50,13 @@ public class Employee {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 }
