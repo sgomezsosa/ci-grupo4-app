@@ -18,8 +18,8 @@ public class Employee {
     @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "last_name")
-    private String lastName;
+    @Column(name = "surname_name")
+    private String surName;
 
     @Column(name = "email")
     private String email;
@@ -40,10 +40,10 @@ public class Employee {
         this.firstName = firstName;
     }
     public String getLastName() {
-        return lastName;
+        return surName;
     }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setSurName(String surName) {
+        this.surName = surName;
     }
     public String getEmail() {
         return email;
