@@ -18,7 +18,16 @@ public class Employee {
     @Column(name = "first_name")
     private String firstName;
 
-    @Column(name = "surname_name")
+    @Column(name = "last_name")
+    private String lastName;
+
+    @Column(name = "status")
+    private String status;
+
+    @Column(name = "full_name")
+    private String fulName;
+
+    @Column(name = "sur_name")
     private String surName;
 
     @Column(name = "email")
@@ -33,6 +42,31 @@ public class Employee {
     public void setId(long id) {
         this.id = id;
     }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getFulName() {
+        return fulName;
+    }
+
+    public void setFulName(String fulName) {
+        this.fulName = fulName;
+    }
+
+    public String getSurName() {
+        return surName;
+    }
+
     public String getFirstName() {
         return firstName;
     }
