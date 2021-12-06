@@ -1,2 +1,3 @@
 rootProject.name = 'ci-grupo4-app'
-//SystemOperation.name = 'Windows'
+namesystem.name = 'windows server'
+testversion.name = 'testv1'
