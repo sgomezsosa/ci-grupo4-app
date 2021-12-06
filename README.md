@@ -65,3 +65,18 @@
 			JDBC URL: jdbc:h2:mem:memDb
 			User Name: sa
 			Password: (vacío)
+# Creditos 
+
+	Participantes del proyecto:
+
+		Gustavo Ramos Montalvo
+		Samuel Gómez
+		Carlos Angel
+		Oscar Garzón
+		Raúl Ortiz
+		Jimmy Padilla
+
+	Docente:
+	
+		Xavier Reig Armero
+
