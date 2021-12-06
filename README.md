@@ -65,3 +65,11 @@
 			JDBC URL: jdbc:h2:mem:memDb
 			User Name: sa
 			Password: (vacío)
+
+# i18n
+    El proyecto soporta internacionalización para los siguientes idiomas
+    -   Español - es (Por defecto)
+    -   Inglés - en
+
+    Para cambiar el idioma prederminado se ingresa en la barra de direcciones el parámetro lang:
+    -  localhost:8080/?lang=en
